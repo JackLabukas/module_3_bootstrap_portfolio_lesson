@@ -11,6 +11,10 @@ body {
   background-color: #fefae0 !important;
 }
 
+#mypicture {
+  box-shadow: 5px 5px 5px 5px #fefae0;
+}
+
 /* Jumbotron CSS */
 
 #jumbotron {
