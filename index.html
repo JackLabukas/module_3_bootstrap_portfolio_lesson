@@ -10,81 +10,122 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Jack // Web Developer</title>
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav id="mainNav" class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">Jack Labukas</a>
-
+    <nav
+      id="mainNav"
+      class="navbar navbar-light bg-light d-flex justify-content-center"
+    >
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link hover navLinks" href="#workCards">My Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link hover navLinks" href="#skills">My Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link hover navLinks" href="#footer">My Contact Info</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+        
       </ul>
     </nav>
     <!-- Jumbotron/hero section -->
     <!-- picture/name/any other info -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
       <div class="container-fluid">
-        <h1 class="display-2">Fluid jumbotron</h1>
-
+        <h1>Welcome.</h1>
+        <hr class="my-4" />
         <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
+          My name is Jack. I am Front-End web developer and this is my
+          portoflio!
         </p>
       </div>
     </div>
 
     <!-- work section with bootstrap cards -->
     <div class="container-fluid" id="workCards">
-      <div class="row" >
-        <div class="card col-sm-12 col-lg-4" style="width: 18rem;">
-  <img src="/assets/images/code.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
- <div class="card col-sm-12 col-lg-4" style="width: 18rem;">
-  <img src="/assets/images/computer.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
- <div class="card col-sm-12 col-lg-4" style="width: 18rem;">
-  <img src="/assets/images/robo.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+      <div class="row">
+        <div class="card text-center col-sm-12 col-lg-4" >
+          <img src="/assets/images/code.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Pre-Work Bootcamp project</h5>
+            <p class="card-text">
+             This was first project before I started my bootcamp.
+            </p>
+            <a href="#" class="btn rounded-pill">Take me there</a>
+          </div>
+        </div>
+        <div class="card text-center col-sm-12 col-lg-4" >
+          <img
+            src="/assets/images/computer.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">CSS Portoflio Project</h5>
+            <p class="card-text">
+              On this project I have used HTML and CSS to style basic portolio page.
+            </p>
+            <a href="#" class="btn rounded-pill">Take me there</a>
+          </div>
+        </div>
+        <div class="card text-center col-sm-12 col-lg-4" >
+          <img src="/assets/images/robo.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn rounded-pill">Take me there</a>
+          </div>
+        </div>
       </div>
-    
-        
+    </div>
 
+    <hr class="my-5" />
     <!-- skills section list of skills i expect to learn in bootcamp -->
-    <div class="container-fluid">
-      <div class="row"></div>
+    <div class="container-fluid" id="skills">
+      <h1>My Skills (...upcoming)</h1>
+      <div class="row">
+        <ul class="list-group col-sm-12 col-lg-4">
+          <li class="list-group-item skillList">JavaScript</li>
+          <li class="list-group-item skillList">ReactJS</li>
+          <li class="list-group-item skillList">Web API's</li>
+        </ul>
+      </div>
     </div>
     <!-- container for about me and skills in same row -->
 
     <!-- footer  -->
+    
+        <div class="jumbotron jumbotron-fluid" id="footer">
+          <div class="container">
+            <h1 class="display-4 footerContact">Contact Me @</h1>
+            <p class="lead">
+              <ul class="nav">
+  <li class="nav-item hover">
+    <a class="nav-link navLinks" href="https://www.linkedin.com/in/jack-labukas-5bb038b7/">Linked In</a>
+  </li>
+  <li class="nav-item hover">
+    <a class="nav-link navLinks" href="https://github.com/JackLabukas">GitHub</a>
+  </li>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- bootstrap JS links to v4.3.1 -->
     <script

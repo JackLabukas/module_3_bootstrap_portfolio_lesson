@@ -1,3 +1,57 @@
-#workCards {
-  margin: auto;
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #e9edc9;
+}
+
+#mainNav {
+  background-color: #fefae0 !important;
+}
+#jumbotron {
+  background-color: #e9edc9;
+}
+
+#skills {
+  margin-bottom: 35px;
+}
+
+#footer {
+  background-color: #e9edc9;
+}
+
+.hover:hover {
+  box-shadow: 5px 5px 5px 5px #ccd5ae;
+}
+
+.skillList {
+  background-color: #ccd5ae;
+}
+
+.card {
+  background-color: #fefae0;
+}
+
+.btn {
+  background-color: #ccd5ae;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px 5px #ccd5ae;
+}
+.navLinks {
+  color: #5b3e22;
+}
+
+.btn:hover {
+  color: #d4a373;
+}
+
+.navLinks:hover {
+  color: #d4a373;
+}
+
+.footerContact {
+  color: #5b3e22;
 }
