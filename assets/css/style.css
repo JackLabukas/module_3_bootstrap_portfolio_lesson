@@ -21,6 +21,9 @@ body {
   background-color: #e9edc9;
 }
 /* Main section  */
+#workCards {
+  margin-top: 50px;
+}
 #skills {
   margin-left: 35px;
   margin-bottom: 35px;
