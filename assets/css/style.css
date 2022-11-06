@@ -6,52 +6,59 @@ body {
   background-color: #e9edc9;
 }
 
+/* Navigation CSS */
 #mainNav {
   background-color: #fefae0 !important;
 }
+
+/* Jumbotron CSS */
+
 #jumbotron {
   background-color: #e9edc9;
 }
-
+/* Main section  */
 #skills {
+  margin-left: 35px;
   margin-bottom: 35px;
 }
-
-#footer {
-  background-color: #e9edc9;
-}
-
-.hover:hover {
-  box-shadow: 5px 5px 5px 5px #ccd5ae;
-}
-
 .skillList {
   background-color: #ccd5ae;
 }
-
 .card {
   background-color: #fefae0;
 }
 
+/* Buttons and links */
 .btn {
   background-color: #ccd5ae;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 5px 5px #ccd5ae;
 }
 .navLinks {
   color: #5b3e22;
 }
 
+/* Footer */
+#footer {
+  margin-top: 500px;
+  background-color: #fefae0;
+}
+.footerContact {
+  color: #5b3e22;
+}
+
+/* Hover effects */
+.card:hover {
+  box-shadow: 5px 5px 5px 5px #ccd5ae;
+}
+.navLinks:hover {
+  color: #d4a373;
+}
 .btn:hover {
   color: #d4a373;
 }
 
-.navLinks:hover {
-  color: #d4a373;
+.hoverLinks:hover {
+  box-shadow: 5px 5px 5px 5px #ccd5ae;
 }
-
-.footerContact {
-  color: #5b3e22;
+.skillList:hover {
+  background-color: #fefae0;
 }
